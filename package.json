@@ -1,12 +1,26 @@
 {
-  "name": "node-jwt-auth",
-  "version": "1.0.0",
-  "description": "NodeJs JWT Authentication and Authorization ",
-  "main": "app.js",
-  "author": "Simran Singh",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.18.2",
-    "nodemon": "^2.0.22"
-  }
+    "name": "node-jwt-auth",
+    "version": "1.0.0",
+    "description": "NodeJs JWT Authentication and Authorization 🔑",
+    "type": "module",
+    "main": "src/app.js",
+    "author": "Simran Singh",
+    "license": "MIT",
+    "scripts": {
+        "start": "nodemon src/app.js",
+        "format": "prettier --write \"src/**/*.js\""
+    },
+    "dependencies": {
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "hbs": "^4.2.0",
+        "mysql": "^2.18.1",
+        "nodemon": "^2.0.22"
+    },
+    "devDependencies": {
+        "eslint": "^8.44.0",
+        "eslint-config-prettier": "^8.8.0",
+        "prettier": "^3.0.0"
+    },
+    "repository": "https://github.com/SimranDev/node-jwt-auth.git"
 }
