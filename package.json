@@ -1,0 +1,12 @@
+{
+  "name": "node-jwt-auth",
+  "version": "1.0.0",
+  "description": "NodeJs JWT Authentication and Authorization ",
+  "main": "app.js",
+  "author": "Simran Singh",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
